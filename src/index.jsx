@@ -717,6 +717,10 @@ module.exports = React.createClass({
             data = []
         }
 
+        if (props.clientPagination === true) {
+            data = data.slice(((props.page - 1) * props.pageSize), (props.page * props.pageSize));
+        }
+
         return data
     },
 

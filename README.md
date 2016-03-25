@@ -230,7 +230,7 @@ For an example, see [examples/restore-grid-state](http://zippyui.github.io/react
  * pageSize: Number - controlled alternative for `defaultPageSize`. When `pageSize` changes, `onPageSizeChange(pageSize)` is called
  * defaultPage: Number
  * page: Number - controlled alternative for `defaultPage`. When `page` changes, `onPageChange(page)` is called
-
+ * clientPagination: Boolean - set `true` to enable client side pagination for Local data
 
 
 ## Contributing
